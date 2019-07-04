@@ -21,9 +21,9 @@ const Footer = () => (
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.286940184937!2d-48.47130472404206!3d-1.431064918364016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48c07b8d02ec9%3A0xe05f920cbefc4ada!2sCafeteria+Dom+Valentim!5e0!3m2!1spt-BR!2sbr!4v1562270136471!5m2!1spt-BR!2sbr"
 						width="600"
 						height="450"
-						frameborder="0"
+						frameBorder="0"
 						style={{ border: 0 }}
-						allowfullscreen
+						allowFullScreen
 					/>
 				</div>
 			</div>
