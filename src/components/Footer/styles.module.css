@@ -1,0 +1,33 @@
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.row h3 {
+  margin-bottom: 8px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 22px;
+}
+
+.linkContainer {
+  display: flex;
+}
+
+.linkContainer svg {
+  margin-right: 11px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+  .column {
+      width: 100%;
+  }
+}
