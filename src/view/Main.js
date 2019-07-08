@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
+import SliderItem from '../components/Slider';
 import styles from './styles.module.css';
 
 const Main = () => {
@@ -25,7 +26,9 @@ const Main = () => {
 				</div>
 			</section>
 			<section className="section">
-				<div className="container" />
+				<div className="container">
+					<SliderItem />
+				</div>
 			</section>
 			<Footer />
 		</React.Fragment>
