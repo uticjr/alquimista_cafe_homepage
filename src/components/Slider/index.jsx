@@ -12,6 +12,10 @@ const SliderItems = () => {
 		slidesToScroll: 1,
 		className: 'slider',
 		dotsClass: 'slick-dots dots',
+		autoplay: true,
+		speed: 2000,
+		autoplaySpeed: 8000,
+		pauseOnHover: true,
 	};
 	return (
 		<Slider {...settings}>
