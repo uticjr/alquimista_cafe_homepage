@@ -1,0 +1,38 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 33%;
+	padding: 22px 11px;
+	border: 1px solid #d8d8d8;
+	margin: 0 11px;
+}
+
+.image {
+	display: flex;
+	flex: 2;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	text-align: center;
+	padding: 22px 0;
+}
+
+.footer {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+	.card {
+		width: 100%;
+		margin: 0;
+		margin-bottom: 22px;
+	}
+}
