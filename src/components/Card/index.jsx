@@ -1,7 +1,11 @@
 import React from 'react';
 import styles from './styles.module.css';
 
-const Card = ({ title, description }) => {
+const Card = ({ title, description, sliderReference, onUpdateSlide }) => {
+	const onUpdate = e => {
+		onUpdateSlide(sliderReference);
+	};
+
 	return (
 		<div className={styles.card}>
 			<div className={styles.image}>
@@ -14,9 +18,9 @@ const Card = ({ title, description }) => {
 				<p>Descrição</p>
 			</div>
 			<div className={styles.footer}>
-				<a href="#" className="button">
+				<button className="button" onClick={onUpdate}>
 					Saiba mais
-				</a>
+				</button>
 			</div>
 		</div>
 	);

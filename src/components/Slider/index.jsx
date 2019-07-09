@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 // import styles from './styles.module.css';
 import './styles.css';
 
-const SliderItems = () => {
+const SliderItems = ({ sliderRef }) => {
 	const settings = {
 		dots: true,
 		infinite: true,
@@ -12,13 +12,13 @@ const SliderItems = () => {
 		slidesToScroll: 1,
 		className: 'slider',
 		dotsClass: 'slick-dots dots',
-		autoplay: true,
-		speed: 2000,
-		autoplaySpeed: 8000,
-		pauseOnHover: true,
+		speed: 600,
+		// autoplay: true,
+		// autoplaySpeed: 8000,
+		// pauseOnHover: true,
 	};
 	return (
-		<Slider {...settings}>
+		<Slider {...settings} ref={sliderRef}>
 			<div className="content-container">
 				<div className="image-container">
 					<figure className="image">

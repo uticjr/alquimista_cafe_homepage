@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
@@ -6,6 +6,12 @@ import SliderItem from '../components/Slider';
 import styles from './styles.module.css';
 
 const Main = () => {
+	const sliderRef = useRef(null);
+
+	const goToSlide = pageNumber => {
+		if (sliderRef) sliderRef.current.slickGoTo(pageNumber);
+	};
+
 	return (
 		<React.Fragment>
 			<Navbar />
@@ -39,9 +45,9 @@ const Main = () => {
 			<section className="section">
 				<div className="container">
 					<div className={styles.row}>
-						<Card />
-						<Card />
-						<Card />
+						{[...Array(3)].map((_, index) => (
+							<Card key={index} sliderReference={index} onUpdateSlide={goToSlide} />
+						))}
 					</div>
 				</div>
 			</section>
@@ -50,7 +56,7 @@ const Main = () => {
 					<h3 className="title" style={{ textAlign: 'center' }}>
 						Evento
 					</h3>
-					<SliderItem />
+					<SliderItem sliderRef={sliderRef} />
 				</div>
 			</section>
 			<Footer />
