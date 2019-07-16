@@ -15,6 +15,11 @@
 	align-items: center;
 }
 
+.image img {
+	max-width: 256px;
+	max-height: 256px;
+}
+
 .content {
 	display: flex;
 	flex: 1;

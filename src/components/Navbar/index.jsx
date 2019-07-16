@@ -1,6 +1,7 @@
 import React from 'react';
 import { cx } from '../../utils/classname';
 import { useToggle } from '../../utils/hooks';
+import logo from '../../assets/logo.png';
 
 const Navbar = () => {
 	const navbar = useToggle(false);
@@ -8,8 +9,8 @@ const Navbar = () => {
 	return (
 		<nav className="navbar" role="navigation" aria-label="main navigation">
 			<div className="navbar-brand">
-				<a className="navbar-item" href="https://bulma.io">
-					{/* <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" /> */}
+				<a className="navbar-item" href="/">
+					{/* <img src={logo} width="90" height="52" /> */}
 					Alquimista Cafés
 				</a>
 

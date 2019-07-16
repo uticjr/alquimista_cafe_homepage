@@ -1,56 +1,73 @@
-import React from 'react';
-import Slider from 'react-slick';
+import React from "react";
+import Slider from "react-slick";
 // import styles from './styles.module.css';
-import './styles.css';
+import "./styles.css";
 
-const SliderItems = ({ sliderRef }) => {
-	const settings = {
-		dots: true,
-		infinite: true,
-		speed: 500,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		className: 'slider',
-		dotsClass: 'slick-dots dots',
-		speed: 600,
-		// autoplay: true,
-		// autoplaySpeed: 8000,
-		// pauseOnHover: true,
-	};
-	return (
-		<Slider {...settings} ref={sliderRef}>
-			<div className="content-container">
-				<div className="image-container">
-					<figure className="image">
-						<img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
-					</figure>
-				</div>
-				<div className="description-container">
-					<p>Descrição</p>
-				</div>
-			</div>
-			<div className="content-container">
-				<div className="image-container">
-					<figure className="image">
-						<img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
-					</figure>
-				</div>
-				<div className="description-container">
-					<p>Descrição</p>
-				</div>
-			</div>
-			<div className="content-container">
-				<div className="image-container">
-					<figure className="image">
-						<img src="https://bulma.io/images/placeholders/256x256.png" alt="" />
-					</figure>
-				</div>
-				<div className="description-container">
-					<p>Descrição</p>
-				</div>
-			</div>
-		</Slider>
-	);
+const SliderItems = ({ sliderRef, data }) => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    className: "slider",
+    dotsClass: "slick-dots dots",
+    speed: 600
+    // autoplay: true,
+    // autoplaySpeed: 8000,
+    // pauseOnHover: true,
+  };
+  return (
+    <div>
+      <Slider {...settings} ref={sliderRef}>
+        <div className="slick-container">
+		  <div className="title-container">
+		  <h3 className="title">{data[0].title}</h3>
+		  </div>
+          <div className="content-container">
+            <div className="image-container">
+              <figure className="image">
+                <img src={data[0].src} alt="" />
+              </figure>
+            </div>
+            <div className="description-container">
+              <p>{data[0].description}</p>
+            </div>
+          </div>
+        </div>
+        <div className="slick-container">
+          <div className="title-container">
+		  <h3 className="title">{data[1].title}</h3>
+		  </div>
+          <div className="content-container">
+            <div className="image-container">
+              <figure className="image">
+                <img src={data[1].src} alt="" />
+              </figure>
+            </div>
+            <div className="description-container">
+              <p>{data[1].description}</p>
+            </div>
+          </div>
+        </div>
+        <div className="slick-container">
+          <div className="title-container">
+		  <h3 className="title">{data[2].title}</h3>
+		  </div>
+          <div className="content-container">
+            <div className="image-container">
+              <figure className="image">
+                <img src={data[2].src} alt="" />
+              </figure>
+            </div>
+            <div className="description-container">
+              <p>{data[2].description}</p>
+            </div>
+          </div>
+        </div>
+      </Slider>
+    </div>
+  );
 };
 
 export default SliderItems;
