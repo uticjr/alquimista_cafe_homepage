@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles.module.css';
 
 const Card = ({ title, description, src, sliderReference, onUpdateSlide }) => {
-	const onUpdate = e => {
+	const onUpdate = () => {
 		onUpdateSlide(sliderReference);
 	};
 

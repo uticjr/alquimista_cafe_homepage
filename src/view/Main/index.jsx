@@ -5,25 +5,22 @@ import Card from '../../components/Card';
 import SliderItem from '../../components/Slider';
 import Hero from './Hero';
 import styles from './styles.module.css';
-import workshop from '../../assets/barista.jpeg';
-import campeonato from '../../assets/diacafe.jpeg';
-import circuito from '../../assets/circuitocafe.jpeg';
 
 const data = [
 	{
 		title: "Workshop",
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing",
-		src: workshop
+		src: ""
 	},
 	{
 		title: "Campeonato",
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing",
-		src: campeonato
+		src: ""
 	},
 	{
 		title: "Circuito Alquimista",
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing",
-		src: circuito
+		src: ""
 	}
 ];
 
@@ -46,12 +43,12 @@ const Main = () => {
 						))} */}
 						{data.map(((item, index) => (
 							<Card 
-								key={index} 
-								sliderReference={index} 
-								onUpdateSlide={goToSlide} 
+								key={index}  
 								title={item.title} 
 								description={item.description}
-								src={item.src}
+                src={item.src}
+                sliderReference={index}
+								onUpdateSlide={goToSlide}
 							/>
 						)))}
 					</div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { cx } from '../../utils/classname';
 import { useToggle } from '../../utils/hooks';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logos/logo.png';
 
 const Navbar = () => {
 	const navbar = useToggle(false);
@@ -9,9 +9,8 @@ const Navbar = () => {
 	return (
 		<nav className="navbar" role="navigation" aria-label="main navigation">
 			<div className="navbar-brand">
-				<a className="navbar-item" href="/">
-					{/* <img src={logo} width="90" height="52" /> */}
-					Alquimista Cafés
+				<a className="navbar-item" href="/" >
+					<img src={logo} />
 				</a>
 
 				<a
@@ -29,7 +28,6 @@ const Navbar = () => {
 			</div>
 			<div id="navbarBasicExample" className={cx('navbar-menu', { 'is-active': navbar.active })}>
 				<div className="navbar-end">
-					<a className="navbar-item">Circuito Café</a>
 					<a className="navbar-item">Evento</a>
 					<a className="navbar-item">Workshop</a>
 					<a className="navbar-item">Barista</a>
