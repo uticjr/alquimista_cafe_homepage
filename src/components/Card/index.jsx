@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css';
 
-const Card = ({ title, description, src, sliderReference, onUpdateSlide }) => {
+const Card = ({ title, description, src, sliderReference, onUpdateSlide, children }) => {
 	const onUpdate = () => {
 		onUpdateSlide(sliderReference);
 	};
@@ -16,10 +16,11 @@ const Card = ({ title, description, src, sliderReference, onUpdateSlide }) => {
 			<div className={styles.content}>
 				<h2 style={{ fontWeight: 'bold' }}>{title}</h2>
 				<p>{description}</p>
+				{children}
 			</div>
 			<div className={styles.footer}>
 				<button className="button" onClick={onUpdate}>
-					Saiba mais
+					Comprar ingresso
 				</button>
 			</div>
 		</div>
