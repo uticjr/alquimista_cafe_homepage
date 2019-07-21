@@ -30,8 +30,9 @@ const Navbar = () => {
 				<div className="navbar-end">
 					<a className="navbar-item">Evento</a>
 					<a className="navbar-item">Workshop</a>
-					<a className="navbar-item">Barista</a>
+					<a className="navbar-item">Barista do dia</a>
 					<a className="navbar-item">Campeonato</a>
+					<a className="navbar-item">Cursos</a>
 					<a className="navbar-item">Contato</a>
 				</div>
 			</div>

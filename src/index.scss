@@ -41,17 +41,30 @@ $navbar-breakpoint: 960px;
 .navbar-item {
   font-family: "Klinic Slab Bold";
   font-size: 1.1rem;
-  padding: 0;
+  padding: 0 0.75rem !important;
 }
 
 .navbar-burger:hover {
   background-color: transparent !important;
 }
 
+.hero {
+  background-image: url('./assets/images/5.png');
+  background-size: cover;
+}
+
+.hero.is-fullheight {
+  min-height: calc(100vh - 5.5rem) !important;
+}
+
+
 @import "../node_modules/bulma/bulma.sass";
 
 @media screen and (max-width: 960px) {
   .navbar{
     padding: 0 0 0 11px;
+  }
+  .hero.is-fullheight {
+    min-height: 60vh !important;
   }
 }

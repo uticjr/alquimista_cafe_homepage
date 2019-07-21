@@ -1,22 +1,15 @@
-import React from "react";
-import styles from './styles.module.css';
+import React from 'react';
+import logo from '../../../assets/logos/inverted_sf.png'
+
+// Falta colocar a data certa do evento
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero is-fullheight">
       <div className="hero-body">
         <div className="container">
-          <h1 className="title">Circuito Café</h1>
-          <div className={styles.card}>
-            <div className={styles.content}>
-              <h3>Descrição</h3>
-            </div>
-            <div>
-              <a href="#" className="button">
-                Venda
-              </a>
-            </div>
-          </div>
+          {/* <h1 className="title">Circuito Alquimista Cafés</h1> */}
+          <img src={logo} alt=""/>
         </div>
       </div>
     </section>
