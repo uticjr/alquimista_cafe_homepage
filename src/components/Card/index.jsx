@@ -18,11 +18,11 @@ const Card = ({ title, description, src, sliderReference, onUpdateSlide, childre
 				<p>{description}</p>
 				{children}
 			</div>
-			<div className={styles.footer}>
+			{/* <div className={styles.footer}>
 				<button className="button" onClick={onUpdate}>
 					Comprar ingresso
 				</button>
-			</div>
+			</div> */}
 		</div>
 	);
 };

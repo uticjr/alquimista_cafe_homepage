@@ -34,23 +34,12 @@ const Schedule = () => {
             description={ScheduleDetails[0].description}
           >
             <p>
-              <strong>09/08, 10/08, 11/08:</strong> Barista Lidiane Santos, 4 horas por dia,
-              exclusivo Circuito Alquimista Cafés
+              <strong>09/08, 10/08, 11/08:</strong> Barista Lidiane Santos, 4
+              horas por dia, exclusivo Circuito Alquimista Cafés
             </p>
-            <p><strong>Vagas: </strong>60</p>
-            <p><strong>LOTE 1: </strong>10 pessoas - R$ 150, 00</p>
-            <p><strong>LOTE 2: </strong>20 pessoas - R$ 180, 00</p>
-            <p><strong>LOTE 3: </strong>30 pessoas - R$ 190, 00</p>
-
             <p>
-              <strong>13/08: </strong> Barista Lidiane Santos, 4 horas,
-              exclusivo para alunos de gastrônomia da Unama
-            </p>
-            <p><strong>Vagas: </strong>60</p>
-            <p><strong>Sem custo para alunos da Unama</strong></p>
-            <p>
-              <strong>Local: </strong> Unama Alcindo Cacela, Bloco F, Laboratório de
-              Práticas Gastronômicas
+              <strong>Local: </strong> Unama Alcindo Cacela, Bloco F,
+              Laboratório de Práticas Gastronômicas
             </p>
             <p>
               <strong>Baristas: </strong> 09, 10, 11/09 das 8h as 12h
@@ -61,6 +50,39 @@ const Schedule = () => {
             <p>
               <strong>Alunos Unama: </strong> 13/09 das 8h as 12h
             </p>
+            <p>
+              <strong>Vagas: </strong>60
+            </p>
+            <p>
+              <strong>LOTE 1: </strong>10 pessoas - R$ 150, 00
+            </p>
+            <a
+              href="https://pag.ae/7V69y9Tma"
+              target="_blank"
+              className="button"
+            >
+              Comprar ingresso
+            </a>
+            <p>
+              <strong>LOTE 2: </strong>20 pessoas - R$ 180, 00
+            </p>
+            <a
+              href="https://pag.ae/7V69yPu6a"
+              target="_blank"
+              className="button"
+            >
+              Comprar ingresso
+            </a>
+            <p>
+              <strong>LOTE 3: </strong>30 pessoas - R$ 190, 00
+            </p>
+            <a
+              href="https://pag.ae/7V69zts4v"
+              target="_blank"
+              className="button"
+            >
+              Comprar ingresso
+            </a>
           </Card>
           <Card
             title={ScheduleDetails[1].title}
@@ -69,25 +91,39 @@ const Schedule = () => {
             <p>
               <strong>09 a 17/09</strong>
             </p>
-            <p><strong>Exclusivo para empresas</strong></p>
+            <p>
+              <strong>Exclusivo para empresas</strong>
+            </p>
           </Card>
           <Card
             title={ScheduleDetails[2].title}
             description={ScheduleDetails[2].description}
           >
-            <p><strong>18/09</strong></p>
             <p>
-              <strong>Local e hora: </strong>Unama BR, início as 18h 
+              <strong>18/09</strong>
+            </p>
+            <p>
+              <strong>Local e hora: </strong>Unama BR, início as 18h
             </p>
           </Card>
           <Card
-            title={ScheduleDetails[0].title}
-            description={ScheduleDetails[0].description}
+            title={ScheduleDetails[3].title}
+            description={ScheduleDetails[3].description}
           >
-            <p><strong>20/09 à 20/10</strong></p>
             <p>
-              <strong>Local e hora: </strong> Cafeterias inscritas no circuito, horário comercial
+              <strong>20/09 à 20/10</strong>
             </p>
+            <p>
+              <strong>Local e hora: </strong> Cafeterias inscritas no circuito,
+              horário comercial
+            </p>
+            <a
+              href="https://pag.ae/7V69EGxX9"
+              target="_blank"
+              className="button"
+            >
+              Comprar ingresso
+            </a>
           </Card>
         </div>
       </div>
