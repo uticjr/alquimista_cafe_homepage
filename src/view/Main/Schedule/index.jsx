@@ -42,13 +42,7 @@ const Schedule = () => {
               Laboratório de Práticas Gastronômicas
             </p>
             <p>
-              <strong>Baristas: </strong> 09, 10, 11/09 das 8h as 12h
-            </p>
-            <p>
-              <strong>Coffee Lovers: </strong> 12/09 das 14h as 18h
-            </p>
-            <p>
-              <strong>Alunos Unama: </strong> 13/09 das 8h as 12h
+              <strong>Horário: </strong> 12/09 das 14h as 18h
             </p>
             <p>
               <strong>Vagas: </strong>60
@@ -90,9 +84,6 @@ const Schedule = () => {
           >
             <p>
               <strong>09 a 17/09</strong>
-            </p>
-            <p>
-              <strong>Exclusivo para empresas</strong>
             </p>
           </Card>
           <Card
