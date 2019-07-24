@@ -7,6 +7,7 @@ import Event from './Event';
 import Schedule from './Schedule';
 import Courses from './Courses';
 import Benefits from './Benefits';
+import Subscription from './Subscription';
 
 const Main = () => {
 	const sliderRef = useRef(null);
@@ -19,8 +20,8 @@ const Main = () => {
 		<React.Fragment>
 			<Navbar />
 			<Hero />
-			{/* <Event />
-			<Benefits /> */}
+			<Event />
+			{/* <Benefits /> */}
 			<Schedule />
 			<Courses />
 			{/* <section className="section">
@@ -28,6 +29,7 @@ const Main = () => {
 					<SliderItem sliderRef={sliderRef} data={data} />
 				</div>
 			</section> */}
+			<Subscription />
 			<Footer />
 		</React.Fragment>
 	);
