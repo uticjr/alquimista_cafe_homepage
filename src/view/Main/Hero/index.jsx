@@ -10,6 +10,8 @@ const Hero = () => {
         <div className="container">
           {/* <h1 className="title">Circuito Alquimista Cafés</h1> */}
           <img src={logo} alt=""/>
+          {/* <h3 className="title is-3" style={{ color: 'white', maxWidth: 620, textAlign: 'left'}}>09/09 - 20/10</h3> */}
+             
         </div>
       </div>
     </section>
