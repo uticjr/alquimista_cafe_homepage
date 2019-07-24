@@ -35,6 +35,12 @@ $navbar-burger-color: var(--pink) !important;
 // $navbar-dropdown-item-hover-background-color: $grey;
 $navbar-breakpoint: 960px;
 
+$footer-background-color: #191919;
+
+.is-white {
+  color: white !important;
+}
+
 .theme-white {
   background-color: var(--background);
 }

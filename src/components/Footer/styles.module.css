@@ -1,6 +1,8 @@
 .row {
   display: flex;
   width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .row h3 {
@@ -16,10 +18,11 @@
 
 .linkContainer {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .linkContainer svg {
-  margin-right: 11px;
+  margin: 0 11px;
   cursor: pointer;
 }
 

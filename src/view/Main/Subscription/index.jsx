@@ -14,6 +14,7 @@ const Subscription = () => {
               title={schedule.title}
               price={schedule.price}
               vacancy={schedule.vacancy}
+              message={schedule.message}
               link={schedule.link}
             />
           ))}
@@ -25,6 +26,7 @@ const Subscription = () => {
             title={koar.title}
             price={koar.price}
             vacancy={koar.vacancy}
+            message={koar.message}
             link={koar.link}
           />
         </div>
@@ -38,6 +40,7 @@ const Subscription = () => {
               title={day.title}
               price={day.price}
               vacancy={day.vacancy}
+              message={barista.message}
               link={day.link}
             />
           ))}
