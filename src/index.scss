@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "Klinic Slab Bold";
+    src: url("./assets/fonts/KlinicSlab/KlinicSlabBold.otf")
+}
+
+@font-face {
+    font-family: "Klinic Slab Book";
+    src: url("./assets/fonts/KlinicSlab/KlinicSlabBook.otf")
+}
+
+:root {
+  // Colors
+  --pink: rgb(255, 57, 68);
+  --blue: rgb(77, 60, 150);
+  --yellow: rgb(255, 189, 0);
+  --shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
+  --background: #fafafa; 
+}
+
+$family-primary: "Klinic Slab Book";
+
+//navbar
+$navbar-item-color: var(--pink);
+$navbar-item-hover-color: var(--yellow);
+$navbar-item-hover-background-color: transparent;
+$navbar-item-active-color: var(--yellow);
+$navbar-height: 5.5rem;
+$navbar-item-img-max-height: 5.5rem;
+$navbar-tab-hover-background-color: transparent;
+$navbar-burger-color: var(--pink) !important;
+$navbar-breakpoint: 800px;
+
+$footer-background-color: #191919;
+
+.is-white {
+  color: white !important;
+}
+
+.theme-white {
+  background-color: var(--background);
+}
+
+.navbar {
+  padding: 0 28px;
+}
+
+.navbar-item {
+  font-family: "Klinic Slab Bold";
+  font-size: 1.1rem;
+  padding: 0 0.75rem !important;
+}
+
+.navbar-burger:hover {
+  background-color: transparent !important;
+}
+
+.hero {
+  background-image: url('./assets/images/5.png');
+  background-size: cover;
+}
+
+.hero.is-fullheight {
+  min-height: calc(100vh - 5.5rem) !important;
+}
+
+.title {
+  text-align: center !important;
+}
+
+@import "../node_modules/bulma/bulma.sass";
+
+.row {
+  display: flex;
+	width: 100%;
+	justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 960px) {
+  .navbar{
+    padding: 0 0 0 11px;
+  }
+  .hero.is-fullheight {
+    min-height: 60vh !important;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+
+// @media screen and (max-width: 600px) {
+// 	.row {
+// 		flex-direction: column;
+// 	}
+// }
