@@ -12,18 +12,21 @@ const Footer = () => (
           <a 
             href="https://www.instagram.com/circuitoalquimistacafes/?igshid=lvutf8qvsaco"
             target="_blank"
+            rel="noopener noreferrer"
           >
           <Icon path={mdiInstagram} color="white" size={1.2} />
           </a>
           <a 
             href="https://pt-br.facebook.com/alquimistacafes/"
             target="_blank"
+            rel="noopener noreferrer"
           >
           <Icon path={mdiFacebook} color="white" size={1.2} />
           </a>
           <a 
             href="https://www.youtube.com/channel/UCHaNswuhzU4MOVGoG-7z2jg"
             target="_blank"
+            rel="noopener noreferrer"
           >
           <Icon path={mdiYoutube} color="white" size={1.2} />
           </a>
@@ -35,6 +38,7 @@ const Footer = () => (
           <a 
             href="https://www.instagram.com/alquimistacafes/?igshid=1wxw2xboft541"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <Icon path={mdiInstagram} color="white" size={1.2} />
           </a>

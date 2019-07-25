@@ -22,7 +22,6 @@
 $family-primary: "Klinic Slab Book";
 
 //navbar
-// $navbar-background-color: rgba(232, 60, 63, 0.93);
 $navbar-item-color: var(--pink);
 $navbar-item-hover-color: var(--yellow);
 $navbar-item-hover-background-color: transparent;
@@ -31,9 +30,7 @@ $navbar-height: 5.5rem;
 $navbar-item-img-max-height: 5.5rem;
 $navbar-tab-hover-background-color: transparent;
 $navbar-burger-color: var(--pink) !important;
-// $navbar-dropdown-arrow: white;
-// $navbar-dropdown-item-hover-background-color: $grey;
-$navbar-breakpoint: 960px;
+$navbar-breakpoint: 800px;
 
 $footer-background-color: #191919;
 

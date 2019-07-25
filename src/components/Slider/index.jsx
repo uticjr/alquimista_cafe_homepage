@@ -12,7 +12,6 @@ const SliderItems = ({ sliderRef, data }) => {
     slidesToScroll: 1,
     className: "slider",
     dotsClass: "slick-dots dots",
-    speed: 600
     // autoplay: true,
     // autoplaySpeed: 8000,
     // pauseOnHover: true,

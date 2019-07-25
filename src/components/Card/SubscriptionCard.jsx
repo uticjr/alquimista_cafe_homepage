@@ -20,7 +20,7 @@ const SubscriptionCard = ({ title, price, vacancy, link, message }) => {
         }
       </div>
       <div className={styles.footer}>
-        <a href={link} target="_blank" className="button">
+        <a href={link} rel="noopener noreferrer" target="_blank" className="button">
           Fazer inscrição
         </a>
       </div>

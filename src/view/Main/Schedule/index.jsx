@@ -4,7 +4,7 @@ import ScheduleList from "./ScheduleList";
 
 const Schedule = () => {
   return (
-    <section className="section theme-white">
+    <section id="schedule" className="section theme-white">
       <div className="container">
         <h2 className="title">Programas</h2>
         <div className="row wrap">

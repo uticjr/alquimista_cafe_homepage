@@ -4,7 +4,7 @@ import { schedules, koar, barista } from "./SubscriptionList";
 
 const Subscription = () => {
   return (
-    <section className="section theme-white">
+    <section id="subscription" className="section theme-white">
       <div className="container">
         <h2 className="title">Garanta já sua inscrição</h2>
         <div className="row">

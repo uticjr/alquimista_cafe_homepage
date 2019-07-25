@@ -1,15 +1,11 @@
 import React from "react";
+import styles from "./styles.module.css";
 
 const Event = () => {
   return (
-    <section className="section">
+    <section id="event" className="section">
       <div className="container">
-        <div
-          style={{
-            width: "60%",
-            margin: "0 auto"
-          }}
-        >
+        <div className={styles.container}>
           <p className="title">
             O Circuito Alquimista Cafés vai apresentar ao público as melhores
             técnicas de preparação de um café especial, bem como um resgate

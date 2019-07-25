@@ -4,7 +4,7 @@ import CourseList from "./CourseList";
 
 const Courses = () => {
   return (
-    <section className="section theme-white">
+    <section id="courses" className="section theme-white">
       <div className="container">
         <h2 className="title">Cursos</h2>
         <div className="row">
