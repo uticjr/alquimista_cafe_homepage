@@ -1,53 +1,46 @@
 export const schedules = [
     {
         title: "Workshop", 
-        price: "180,00", 
         vacancy: "60", 
         message: "",
-        link: "https://pag.ae/7V69zts4v"
+        link: "https://pag.ae/7V6PQN-b9"
     },
     {
         title: "Circuito Alquimista", 
-        price: "", 
         vacancy: "", 
-        message: "Somente para empresas",
-        link: "https://pag.ae/7V69EGxX9"
+        message: "*Somente para empresas",
+        link: "https://pag.ae/7V6PPKUeu"
     },
 ];
 
 export const koar = {
     title: "Curso de Koar", 
-    price: "180,00", 
     vacancy: "60", 
     message: "",
-    link: "https://pag.ae/7V69HoinR"
+    link: "https://pag.ae/7V6PMNGKm"
 };
 
 export const barista = [
     {
-        title: "16/09", 
-        price: "180,00", 
+        title: "16/09",  
         vacancy: "7", 
         message: "",
         link: "https://pag.ae/7V69KTPTR"
     },
     {
         title: "17/09",
-        price: "180,00", 
         vacancy: "7", 
         message: "",
         link: "https://pag.ae/7V69MdREv",
     },
     {
         title: "19/09",
-        price: "180,00", 
         vacancy: "7",
         message: "", 
         link: "https://pag.ae/7V69MU3wa"
     },
     {
         title: "20/09",
-        price: "180,00", 
         vacancy: "7",
         message: "", 
         link: "https://pag.ae/7V69NnREt"

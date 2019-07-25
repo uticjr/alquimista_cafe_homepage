@@ -88,6 +88,12 @@
 	font-size: 15px;
 }
 
+.message {
+	margin-top: 6px;
+	text-align: center;
+	font-size: 12px !important;
+}
+
 @media screen and (max-width: 800px) {
 	.card {
 		width: 100%;
