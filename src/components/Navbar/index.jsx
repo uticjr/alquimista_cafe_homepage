@@ -1,6 +1,6 @@
 import React from "react";
-import { cx } from "../../utils/classname";
 import { useToggle } from "../../utils/hooks";
+import { cx } from "../../utils/classname";
 import logo from "../../assets/logos/logo.png";
 
 const Navbar = () => {
