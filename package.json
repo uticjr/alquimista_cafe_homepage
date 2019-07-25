@@ -1,11 +1,13 @@
 {
   "name": "alquimista_cafe_homepage",
+  "homepage": "https://github.com/uticjr/alquimista_cafe_homepage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@mdi/js": "^3.7.95",
     "@mdi/react": "^1.2.0",
     "bulma": "^0.7.5",
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -14,6 +16,8 @@
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

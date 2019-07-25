@@ -4,7 +4,7 @@ import { mdiInstagram, mdiFacebook, mdiYoutube } from "@mdi/js";
 import styles from "./styles.module.css";
 
 const Footer = () => (
-  <div className="footer">
+  <div id="contact" className="footer">
     <div className="container">
     <h4 className="title is-5 is-white">Siga as nossas redes sociais</h4>
       <div className={styles.row}>

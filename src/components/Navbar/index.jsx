@@ -51,6 +51,9 @@ const Navbar = () => {
           <a className="navbar-item" name="subscription" href="#inscricoes" onClick={onClick}>
             Inscrições
           </a>
+          <a className="navbar-item" name="contact" href="#contatos" onClick={onClick}>
+            Contatos
+          </a>
         </div>
       </div>
     </nav>
