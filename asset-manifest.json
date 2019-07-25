@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/alquimista_cafe_homepage/static/css/main.cf729602.chunk.css",
+    "main.js": "/alquimista_cafe_homepage/static/js/main.2576d29c.chunk.js",
+    "main.js.map": "/alquimista_cafe_homepage/static/js/main.2576d29c.chunk.js.map",
+    "runtime~main.js": "/alquimista_cafe_homepage/static/js/runtime~main.15bd428a.js",
+    "runtime~main.js.map": "/alquimista_cafe_homepage/static/js/runtime~main.15bd428a.js.map",
+    "static/css/2.095edbf4.chunk.css": "/alquimista_cafe_homepage/static/css/2.095edbf4.chunk.css",
+    "static/js/2.046b0f80.chunk.js": "/alquimista_cafe_homepage/static/js/2.046b0f80.chunk.js",
+    "static/js/2.046b0f80.chunk.js.map": "/alquimista_cafe_homepage/static/js/2.046b0f80.chunk.js.map",
+    "index.html": "/alquimista_cafe_homepage/index.html",
+    "precache-manifest.18467f43909dfb9cf56b05d6a7b7f474.js": "/alquimista_cafe_homepage/precache-manifest.18467f43909dfb9cf56b05d6a7b7f474.js",
+    "service-worker.js": "/alquimista_cafe_homepage/service-worker.js",
+    "static/css/2.095edbf4.chunk.css.map": "/alquimista_cafe_homepage/static/css/2.095edbf4.chunk.css.map",
+    "static/css/main.cf729602.chunk.css.map": "/alquimista_cafe_homepage/static/css/main.cf729602.chunk.css.map",
+    "static/media/index.scss": "/alquimista_cafe_homepage/static/media/KlinicSlabBook.2d3ef904.otf",
+    "static/media/inverted_sf.png": "/alquimista_cafe_homepage/static/media/inverted_sf.82c07b75.png",
+    "static/media/logo.png": "/alquimista_cafe_homepage/static/media/logo.9b158dd7.png",
+    "static/media/slick-theme.css": "/alquimista_cafe_homepage/static/media/slick.f97e3bbf.svg"
+  }
+}
