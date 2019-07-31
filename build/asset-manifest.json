@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.798c29db.chunk.css",
+    "main.js": "/static/js/main.ea516d07.chunk.js",
+    "main.js.map": "/static/js/main.ea516d07.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.18585a14.chunk.css": "/static/css/2.18585a14.chunk.css",
+    "static/js/2.046b0f80.chunk.js": "/static/js/2.046b0f80.chunk.js",
+    "static/js/2.046b0f80.chunk.js.map": "/static/js/2.046b0f80.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.981c76e5f755b264a9827826a1e894e6.js": "/precache-manifest.981c76e5f755b264a9827826a1e894e6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.18585a14.chunk.css.map": "/static/css/2.18585a14.chunk.css.map",
+    "static/css/main.798c29db.chunk.css.map": "/static/css/main.798c29db.chunk.css.map",
+    "static/media/index.scss": "/static/media/KlinicSlabBook.2d3ef904.otf",
+    "static/media/inverted_sf.png": "/static/media/inverted_sf.82c07b75.png",
+    "static/media/logo.png": "/static/media/logo.9b158dd7.png",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg"
+  }
+}
