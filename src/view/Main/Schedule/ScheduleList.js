@@ -11,7 +11,8 @@ const ScheduleList = [
     {
       title: "Barista do dia",
       day: "09 à 17/09",
-      description: "",
+      description: 
+        "Nessa etapa. O Barista José Wilken vai ministrar cursos de barista dentro das cafeterias que contratarem o serviço, ao mesmo tempo que servirá cafés especiais para os clientes da casa.",
       place: "",
       time: ""
     },
