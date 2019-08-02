@@ -18,7 +18,7 @@ const Subscription = () => {
               message={schedule.message}
               link={schedule.link}
               checkbox={schedule.checkbox}
-              disabled={schedule.disabled}
+              disable={schedule.disabled}
             />
           ))}
         </div>

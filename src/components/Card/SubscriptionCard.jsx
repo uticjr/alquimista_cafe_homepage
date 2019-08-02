@@ -3,10 +3,10 @@ import Contrato from "../../assets/documents/Contrato.pdf";
 import Regras from "../../assets/documents/Regras.pdf";
 import styles from "./styles.module.css";
 
-const SubscriptionCard = ({ title, vacancy, link, message, checkbox, disabled }) => {
-  const [disable, setDisable] = useState(disabled);
+const SubscriptionCard = ({ title, vacancy, link, message, checkbox, disable }) => {
+  const [disabled, setDisable] = useState(disable);
 
-  const onCheckboxClicked = () => setDisable(!disable);
+  const onCheckboxClicked = () => setDisable(!disabled);
 
   return (
     <div className={styles.cardSubs}>
@@ -35,15 +35,21 @@ const SubscriptionCard = ({ title, vacancy, link, message, checkbox, disabled })
           </div>
         }
         {!!message && <p className={styles.message}>{message}</p>}
+        <span
+        className={disabled ? "link-disabled" : "link-container"}
+        // disabled={disabled}
+        >
         <a
           href={link}
           rel="noopener noreferrer"
           target="_blank"
+          // className={disabled ? "button link-disabled" : "button"}
           className="button"
-          disabled={disable}
+          disabled={disabled}
         >
           Fazer inscrição
         </a>
+        </span>
       </div>
     </div>
   );

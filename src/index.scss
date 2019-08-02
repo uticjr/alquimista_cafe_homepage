@@ -35,12 +35,37 @@ $navbar-breakpoint: 800px;
 
 $footer-background-color: #191919;
 
-$button-disabled-opacity: 0.7;
+// $button-disabled-opacity: 0.7;
 
 .checkbox {
   margin: 6px 0;
   font-family: 'Roboto', sans-serif !important;
   font-size: 0.9em; 
+}
+
+.button {
+  width: 100% !important;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.link-disabled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: not-allowed !important;
+  width: 100% !important;
+}
+
+.link-disabled > a {
+  color: inherit !important;
+  pointer-events: none !important;
+  text-decoration: none;
 }
 
 .is-white {
