@@ -3,6 +3,7 @@ import SubscriptionCard from "../../../components/Card/SubscriptionCard";
 import { schedules, koar, barista } from "./SubscriptionList";
 
 const Subscription = () => {
+
   return (
     <section id="subscription" className="section theme-white">
       <div className="container">
@@ -16,6 +17,8 @@ const Subscription = () => {
               vacancy={schedule.vacancy}
               message={schedule.message}
               link={schedule.link}
+              checkbox={schedule.checkbox}
+              disabled={schedule.disabled}
             />
           ))}
         </div>

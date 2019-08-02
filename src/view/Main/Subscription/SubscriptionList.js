@@ -3,13 +3,17 @@ export const schedules = [
         title: "Workshop", 
         vacancy: "60", 
         message: "",
-        link: "https://pag.ae/7V6PQN-b9"
+        link: "https://pag.ae/7V6PQN-b9",
+        checkbox: false,
+        disabled: false,
     },
     {
         title: "Circuito Alquimista", 
         vacancy: "", 
         message: "*Somente para empresas",
-        link: "https://pag.ae/7V6PPKUeu"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSekD9BSjAO8-fjp8nUy_EFsa2WALXJvVvhZo0mwhEzqXS2a5g/viewform",
+        checkbox: true,
+        disabled: true
     },
 ];
 

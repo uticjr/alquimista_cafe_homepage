@@ -1,12 +1,25 @@
 .row {
   display: flex;
+  flex-direction: row;
   width: 100%;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
 }
 
-.row h3 {
+.column h3 {
+  text-align: left !important;
   margin-bottom: 8px;
+}
+
+.column h4 {
+  text-align: left !important;
+  margin-bottom: 8px;
+}
+
+.row p {
+  text-align: left !important;
+  margin: 0 0 6px 11px;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 .column {
