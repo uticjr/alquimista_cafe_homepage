@@ -1,36 +1,34 @@
-import React from 'react';
-import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer';
-import Hero from './Hero';
-import Event from './Event';
-import Schedule from './Schedule';
-import Courses from './Courses';
-import Subscription from './Subscription';
+import React from "react";
+import Footer from "../../components/Footer";
+import Hero from "./Hero";
+import Event from "./Event";
+import Schedule from "./Schedule";
+import Courses from "./Courses";
+import Subscription from "./Subscription";
 
 const Main = () => {
-	// const sliderRef = useRef(null);
+  // const sliderRef = useRef(null);
 
-	// const goToSlide = pageNumber => {
-	// 	if (sliderRef) sliderRef.current.slickGoTo(pageNumber);
-	// };
+  // const goToSlide = pageNumber => {
+  // 	if (sliderRef) sliderRef.current.slickGoTo(pageNumber);
+  // };
 
-	return (
-		<React.Fragment>
-			<Navbar />
-			<Hero />
-			<Event />
-			{/* <Benefits /> */}
-			<Schedule />
-			<Courses />
-			{/* <section className="section">
+  return (
+    <React.Fragment>
+      <Hero />
+      <Event />
+      {/* <Benefits /> */}
+      <Schedule />
+      <Courses />
+      {/* <section className="section">
 				<div className="container">
 					<SliderItem sliderRef={sliderRef} data={data} />
 				</div>
 			</section> */}
-			<Subscription />
-			<Footer />
-		</React.Fragment>
-	);
+      <Subscription />
+      <Footer />
+    </React.Fragment>
+  );
 };
 
 export default Main;
