@@ -5,6 +5,7 @@ import Event from "./Event";
 import Schedule from "./Schedule";
 import Courses from "./Courses";
 import Subscription from "./Subscription";
+import Warning from "./Warning";
 
 const Main = () => {
   // const sliderRef = useRef(null);
@@ -20,6 +21,7 @@ const Main = () => {
       {/* <Benefits /> */}
       <Schedule />
       <Courses />
+      <Warning />
       {/* <section className="section">
 				<div className="container">
 					<SliderItem sliderRef={sliderRef} data={data} />
