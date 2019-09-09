@@ -29,24 +29,24 @@ export const barista = [
         title: "16/09",  
         vacancy: "7", 
         message: "",
-        link: "https://pag.ae/7V69KTPTR"
+        link: "https://pag.ae/7Vfc4XzM5"
     },
     {
         title: "17/09",
         vacancy: "7", 
         message: "",
-        link: "https://pag.ae/7V69MdREv",
+        link: "https://pag.ae/7Vfc4p5m2",
     },
     {
         title: "19/09",
         vacancy: "7",
         message: "", 
-        link: "https://pag.ae/7V69MU3wa"
+        link: "https://pag.ae/7Vfc3QAVr"
     },
     {
         title: "20/09",
         vacancy: "7",
         message: "", 
-        link: "https://pag.ae/7V69NnREt"
+        link: "https://pag.ae/7Vfc36tEr"
     }
 ];

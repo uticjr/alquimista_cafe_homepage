@@ -10,11 +10,11 @@ const Warning = () => {
             <h5 className={styles.title}>Aviso</h5>
             <div className={styles.content}>
               <p>O workshop e o curso de Koar serão dia 10/09</p>
-              <span>Local:</span>
+              <span className={styles.cardSubTitle}>Local:</span>
               <p>Antes seria na Unama Alcindo Cacela, Bloco F, Laboratório de
               Práticas Gastronômicas.</p>
               <p>Passa a ser na Delalê. Tv. Alferes Costa, 2690.</p>
-              <span>Hora:</span> 
+              <span className={styles.cardSubTitle}>Hora:</span> 
               <p>15h às 18</p>
             </div>
           </div>
